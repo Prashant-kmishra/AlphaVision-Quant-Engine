@@ -31,7 +31,7 @@ export default function TopPicks() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
         {picks.map((pick, i) => (
           <div key={i} className="bg-gray-50 rounded-2xl p-4 border border-gray-100 flex flex-col justify-between hover:-translate-y-1 transition-transform shadow-sm hover:shadow-md hover:border-green-200">
             <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Rank #{i + 1}</span>

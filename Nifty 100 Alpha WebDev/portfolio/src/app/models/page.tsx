@@ -19,7 +19,7 @@ export default function ModelLab() {
       </div>
 
       {/* Expanded KPI Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 w-full text-left">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 w-full text-left">
         <div className="kpi-card space-y-1 group">
           <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest group-hover:text-blue-500 transition-colors">Architecture</p>
           <p className="text-2xl font-extrabold text-gray-900">QuantMLP</p>

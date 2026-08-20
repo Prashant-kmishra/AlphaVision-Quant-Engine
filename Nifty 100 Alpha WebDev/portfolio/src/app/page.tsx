@@ -25,7 +25,7 @@ export default function Home() {
         <span>135,857 Stock-Days</span>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full pt-8 text-left">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full pt-8 text-left">
         <div className="kpi-card space-y-1">
           <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Target Universe</p>
           <p className="text-3xl font-extrabold text-gray-900">NIFTY 100</p>
