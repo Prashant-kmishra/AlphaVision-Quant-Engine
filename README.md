@@ -19,18 +19,6 @@
 
 </div>
 
----
-
-## 👨‍🏫 A Note From the Desk
-
-> *Every year I review a few thousand "quant" resumes and GitHub links. Ninety-five percent of them are `df.corr()`, a moving-average crossover, and a backtest with no transaction costs, no walk-forward validation, and a Sharpe ratio that quietly assumes you can trade at yesterday's closing price with zero slippage. That is not quantitative research — that is a spreadsheet with extra steps.*
->
-> *This repository is not that. It downloads five and a half years of live NSE data across 96 liquid Nifty 100 constituents, engineers a lookahead-bias-free factor set, validates every model with **purged walk-forward cross-validation** — the exact methodology from López de Prado's "Advances in Financial Machine Learning" — benchmarks four model families on **Information Coefficient**, constructs and stress-tests **eleven distinct portfolio construction strategies**, and finally survives a **realistic 20-bps Indian transaction cost model** while still beating the benchmark on a risk-adjusted basis. It even reports the experiments that failed (LambdaRank, naive meta-labeling) instead of hiding them.*
->
-> *That is the difference between a project that gets a callback and a project that gets an offer. Let's walk through it.*
-
----
-
 ## 📌 Table of Contents
 
 1. [Overview](#overview)
