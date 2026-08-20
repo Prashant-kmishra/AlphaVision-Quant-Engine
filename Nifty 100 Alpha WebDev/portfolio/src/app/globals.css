@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #2563EB;
+  --color-brand-teal: #0D9488;
+  --color-brand-light: #F0F9FF;
+  
+  --color-risk-high: #E11D48;
+  --color-risk-medium: #F59E0B;
+  --color-risk-low: #10B981;
+  
+  --color-bg-main: #FAFAFA;
+  --color-bg-card: #FFFFFF;
+  
+  --color-text-main: #111827;
+  --color-text-muted: #6B7280;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+}
+
+@layer base {
+  :root {
+    --background: #FAFAFA;
+    --foreground: #111827;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    
+    background-image: 
+      linear-gradient(to right, rgba(0,0,0,0.02) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0,0,0,0.02) 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-attachment: fixed;
+  }
+}
+
+/* Beautiful moving background gradient layer */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  background: linear-gradient(120deg, rgba(224,242,254,0.4) 0%, rgba(255,255,255,1) 40%, rgba(204,251,241,0.3) 100%);
+  background-size: 200% 200%;
+  animation: gradientShift 15s ease infinite;
+  pointer-events: none;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.card {
+  @apply bg-white/70 border border-white/60 rounded-2xl p-6 shadow-[0_8px_32px_rgba(37,99,235,0.05)] backdrop-blur-xl relative overflow-hidden transition-all duration-500 hover:shadow-[0_16px_48px_rgba(37,99,235,0.1)] hover:-translate-y-1 hover:border-blue-100;
+}
+
+.kpi-card {
+  @apply relative overflow-hidden rounded-3xl p-6 border border-white/80 shadow-[0_8px_32px_rgba(37,99,235,0.08)] backdrop-blur-2xl bg-gradient-to-br from-white/90 via-white/60 to-blue-50/40 ring-1 ring-black/[0.03] transition-all duration-500 ease-out hover:shadow-[0_16px_48px_rgba(37,99,235,0.15)] hover:border-blue-200 hover:-translate-y-1.5 hover:scale-[1.01] cursor-default;
+}
+
+.badge {
+  @apply px-2.5 py-0.5 rounded-full text-xs font-semibold tracking-wide uppercase;
+}
+
+/* Glassmorphism helpers */
+.glass-header {
+  @apply bg-white/60 backdrop-blur-2xl border-b border-white/60 shadow-sm;
+}

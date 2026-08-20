@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+.next/
+out/
+build/
+.env*
+.vercel
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+env/
+.env/
+*.pt
+*.pth
+*.pkl
+*.h5
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Project Specific Data
+extracted_charts/
+temp_strategies.txt

@@ -1,0 +1,109 @@
+{
+  "status": "success",
+  "generated_at": "2026-08-20T20:38:10.712927Z",
+  "market_status": "Live/Unsettled",
+  "strategy_exposure": 100,
+  "nifty_macd_signal": "BULLISH",
+  "top_20_allocations": [
+    {
+      "Ticker": "WIPRO.NS",
+      "Alpha_Score": 1.0,
+      "Close": 179.5500030517578
+    },
+    {
+      "Ticker": "ICICIBANK.NS",
+      "Alpha_Score": 0.7414532899856567,
+      "Close": 1402.0
+    },
+    {
+      "Ticker": "POWERGRID.NS",
+      "Alpha_Score": 0.7309110760688782,
+      "Close": 263.5
+    },
+    {
+      "Ticker": "SBIN.NS",
+      "Alpha_Score": 0.6737788319587708,
+      "Close": 1048.5999755859375
+    },
+    {
+      "Ticker": "TITAN.NS",
+      "Alpha_Score": 0.5947860479354858,
+      "Close": 5068.0
+    },
+    {
+      "Ticker": "SUNPHARMA.NS",
+      "Alpha_Score": 0.4913448095321655,
+      "Close": 1900.0
+    },
+    {
+      "Ticker": "NTPC.NS",
+      "Alpha_Score": 0.2293844372034073,
+      "Close": 336.54998779296875
+    },
+    {
+      "Ticker": "RELIANCE.NS",
+      "Alpha_Score": 0.214619979262352,
+      "Close": 1311.0
+    },
+    {
+      "Ticker": "ASIANPAINT.NS",
+      "Alpha_Score": 0.21269558370113373,
+      "Close": 2630.800048828125
+    },
+    {
+      "Ticker": "LT.NS",
+      "Alpha_Score": 0.026180114597082138,
+      "Close": 4041.300048828125
+    },
+    {
+      "Ticker": "TCS.NS",
+      "Alpha_Score": 0.02460898645222187,
+      "Close": 2289.0
+    },
+    {
+      "Ticker": "ITC.NS",
+      "Alpha_Score": 0.02005953900516033,
+      "Close": 267.04998779296875
+    },
+    {
+      "Ticker": "BHARTIARTL.NS",
+      "Alpha_Score": 0.016063304618000984,
+      "Close": 1922.0
+    },
+    {
+      "Ticker": "ULTRACEMCO.NS",
+      "Alpha_Score": 0.01574079506099224,
+      "Close": 11450.0
+    },
+    {
+      "Ticker": "HDFCBANK.NS",
+      "Alpha_Score": 0.013749193400144577,
+      "Close": 720.0
+    },
+    {
+      "Ticker": "HCLTECH.NS",
+      "Alpha_Score": 0.011203526519238949,
+      "Close": 1324.800048828125
+    },
+    {
+      "Ticker": "ONGC.NS",
+      "Alpha_Score": 0.008252648636698723,
+      "Close": 238.0
+    },
+    {
+      "Ticker": "AXISBANK.NS",
+      "Alpha_Score": 0.006858466193079948,
+      "Close": 1235.0
+    },
+    {
+      "Ticker": "BAJAJFINSV.NS",
+      "Alpha_Score": 0.006409340538084507,
+      "Close": 2012.0
+    },
+    {
+      "Ticker": "INFY.NS",
+      "Alpha_Score": 0.0025609578005969524,
+      "Close": 1119.800048828125
+    }
+  ]
+}
